@@ -36,9 +36,21 @@ int main()
     case 10:
         printf("You reached 10th Floor!!!");
         break;
+    case -1:
+        printf("You reached -1st Floor!!!");
+        break;
+    case -2:
+        printf("You reached -2nd Floor!!!");
+        break;
+    case -3:
+        printf("You reached -3rd Floor!!!");
+        break;
+    case -4:
+        printf("You reached -4th Floor!!!");
+        break;
 
     default:
-        printf("Your Floor Number is not valid------");
+        printf("------Your Floor Number is not valid------");
         break;
     }
     return 0;
